@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".colors2">
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="69dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/au"
+        android:onClick="s2" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="110dp"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="98dp"
+        android:onClick="r"
+        app:srcCompat="@drawable/rojo" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="108dp"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:onClick="na"
+        app:srcCompat="@drawable/naranja" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="97dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginBottom="141dp"
+        android:onClick="azul"
+        app:srcCompat="@drawable/azul" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="102dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="144dp"
+        android:onClick="ama"
+        app:srcCompat="@drawable/ama" />
+</RelativeLayout>

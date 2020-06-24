@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".colors3">
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="99dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="238dp"
+        android:background="@drawable/au"
+        android:onClick="s3" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="71dp"
+        android:onClick="per"
+        app:srcCompat="@drawable/morado" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="122dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:onClick="az"
+        app:srcCompat="@drawable/azul" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="139dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="ne"
+        app:srcCompat="@drawable/negro" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="136dp"
+        android:layout_height="146dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="152dp"
+        android:onClick="amar"
+        app:srcCompat="@drawable/ama" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="re"
+        android:text="REGRESAR" />
+</RelativeLayout>
